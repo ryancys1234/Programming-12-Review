@@ -1,2 +1,2 @@
-# prog12review1
-Input desc here.
+# Programming 12 Review
+This repository contains the files relevant to the review project.
