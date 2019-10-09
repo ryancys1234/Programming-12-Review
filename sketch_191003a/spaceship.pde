@@ -2,6 +2,7 @@ class spaceship //Class is a blueprint. Every class needs 3 things: instance var
   extends GameObject { //connects to the GameObject class
   //instance variable: it is different from regular variables in that it can mostly be accessible in the class Spaceship
   PVector direction;
+  int lives;
 
   //constructor(s): it is a function special to this class. No need to put int before the function name
   spaceship() {
@@ -26,16 +27,11 @@ class spaceship //Class is a blueprint. Every class needs 3 things: instance var
   void act() { //makes the spaceship move around
     //x = x + vx; these two lines of code will exist if vectors were not used
     //y = y + vy;
-    location.add(velocity); //vector adds to another vector
+    super.act();
     if (upkey) velocity.add(direction); //add direction to velocity so the spaceship will go the way the arrow key ordained
     if (downkey) velocity.sub(direction); //sub means subtract
     if (leftkey) direction.rotate(-radians(2)); //2 degrees is converted to radians
     if (rightkey) direction.rotate(radians(2));
     if (spacekey) myGameObjects.add(new Bullet());
-
-    if (location.y < -50) location.y = height+50; //cannot use <= but <
-    if (location.y > height+50) location.y = height-50;
-    if (location.x < -50) location.x = width+50;
-    if (location.x > width+50) location.y = width-50;
   }
 }

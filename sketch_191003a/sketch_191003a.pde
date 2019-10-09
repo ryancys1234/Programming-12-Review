@@ -1,7 +1,7 @@
 boolean upkey, downkey, leftkey, rightkey, spacekey; //used to program the arrow keys and the space key
 PImage spaceshipimg; //image inserting variable
 spaceship mySpaceship;
-ArrayList<GameObject> myGameObjects;
+ArrayList<GameObject> myGameObjects; //the arraylist is for GameObjects, which includes bullets
 
 void setup() {
   size(800, 800);
@@ -9,6 +9,7 @@ void setup() {
   imageMode(CENTER);
   mySpaceship = new spaceship(); //instantiation step, very crucial. It is actually constructing the image of the space ship in the computer memory
   myGameObjects = new ArrayList<GameObject> ();
+
 }
 void draw() {
   background(255); //background supposed to be in the draw function

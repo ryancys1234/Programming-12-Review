@@ -1,5 +1,5 @@
 class Bullet extends GameObject { //bullets get lives, velocity and location, which are variables in the GameObject class, by this extension
-
+  //extends basically builds on top of the class Bullet
   Bullet() {
     location = new PVector (mySpaceship.location.x, mySpaceship.location.y);
     //location.x = mySpaceship.location.x;
@@ -16,6 +16,7 @@ class Bullet extends GameObject { //bullets get lives, velocity and location, wh
   }
 
   void act() {
+
     location.add(velocity);
   }
 }
