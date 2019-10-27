@@ -1,2 +1,2 @@
 # Programming 12 Review
-This repository contains the files relevant to the review project.
+This repository contains files and projects made at the start of the Programming 12 course, namely the review unit.
