@@ -44,9 +44,9 @@ This repository contains files and projects made at the start of the Programming
 
 // Reminder: use two consecutive '=' for equal here.
 
-                       // Single '=' is used to assign values, double '=' is used
+    // Single '=' is used to assign values, double '=' is used
                        
-                       // to compare values.
+    // to compare values.
                        
-                       // If there is bracket, = ; two brackets, ==
+    // If there is bracket, = ; two brackets, ==
                        
