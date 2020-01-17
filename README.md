@@ -7,17 +7,17 @@ This repository contains files and projects made at the start of the Programming
 
 // Variable names / types:
 
-  //int (integer)
-  
-  //float(number with decimal / rational)
-  
-  //color(store integer that represent color)
-  
-  //boolean(stores true or false)
-  
-  //string(stores text)
-  
-  //char(a single character)
+    //int (integer)
+
+    //float(number with decimal / rational)
+
+    //color(store integer that represent color)
+ 
+    //boolean(stores true or false)
+
+    //string(stores text)
+
+    //char(a single character)
   
   
   
@@ -28,13 +28,13 @@ This repository contains files and projects made at the start of the Programming
 
 // Rules for naming variables:
 
-  //1. only use letters, numbers, dollar sign (but no other symbols,
+    //1. only use letters, numbers, dollar sign (but no other symbols,
   
-  //including spaces)
+    //including spaces)
   
-  //2. if more than one word, first word is lowercase,
+    //2. if more than one word, first word is lowercase,
   
-  //but every subsequent word is capitalized
+    //but every subsequent word is capitalized
   
 
 // int only appears once: that is, at the beginning
