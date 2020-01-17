@@ -2,6 +2,7 @@
 This repository contains files and projects made at the start of the Programming 12 course, namely the review unit. Files include notes on variables, functions, and mode frameworks. A general summary of relevant notes is
 
 // Global variables (variables at the top, accessible anywhere)
+
 // Variable names / types:
   //int (integer)
   //float(number with decimal / rational)
