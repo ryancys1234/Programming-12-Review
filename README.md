@@ -23,7 +23,7 @@ This repository contains files and projects made at the start of the Programming
   
 // Declaring a variable, creates a new variable, gives
 
-   // it a name, and locks in the type of value it stores
+// it a name, and locks in the type of value it stores
 
 
 // Rules for naming variables:
