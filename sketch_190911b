@@ -1,4 +1,4 @@
-//this document demonstrates how to create a new function
+// This document demonstrates how to create a new function.
 
 void setup() {
   size (1000,1000);
