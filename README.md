@@ -34,5 +34,4 @@ Rules for naming variables:
 int, float, boolean... only appears once: that is, at the beginning.
 
 
-Reminder:   "=" is for declaring values, NOT an equation.
-            Use two consecutive '=' for equal here. Single '=' is used to assign values, double '=' is used to compare values. If there is one bracket, '=' ; two brackets, '=='.
+Reminder: Single '=' is used to assign values, double '=' is used to compare / equal values. If there is one bracket, '=' ; two brackets, '=='.
