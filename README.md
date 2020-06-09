@@ -31,7 +31,7 @@ Rules for naming variables:
     2. If there is more than one word, the first word is lowercase, but every subsequent word is capitalized.
   
 
-int, float, boolean... only appears once - that is, at the beginning.
+int, float, boolean... only appear once - that is, at the beginning.
 
 
 Reminder: Single '=' is used to assign values, double '=' is used to compare / equal values. If there is one bracket, '=' ; two brackets, '=='.
